@@ -1,0 +1,25 @@
+# Ignore all subdirectories
+*/*/
+
+# Ignore all lab folders
+lab?/*
+
+# Unignore all lab1 and lab2 folders
+!lab1/*.*
+!lab2/*.*
+
+# Ignore checkpoints
+*/.ipynb_checkpoints/
+
+# Pattern to ignore all files except .md and .ipynb
+!*.md
+!*.ipynb
+
+# Ignore .idea folder
+.idea/
+
+
+
+
+
+
